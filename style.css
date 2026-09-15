@@ -82,13 +82,16 @@ border: 1px solid #0077df;
 .principal-secao {
     background-size: cover;
     background-position: center;
-    min-height: 850px;
+    min-height: 650px;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;}
+    gap: 8px;
+}
 
 .iphone-duo{
-    background-image: url('images/iphone-duo.jpg')
+    background-image: url('images/iphone-duo.jpg');
+    margin-top: 10px;
+
 }
