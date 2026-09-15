@@ -1,34 +1,94 @@
- * { 
-        font-family: 'roboto' , sans-serif;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
+* { 
+    font-family: 'Inter' , sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cabecalho-link {
+        text-decoration: none;
+        color: black;
+        font-size: 0.8rem;
+        padding: 1rem;
+ }
+
+.cabecalho-navegacao {
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     align-items: center;
+     height: 7.5%;
+ }
+ .cabecalho-icone {
+     padding: 1rem;
+ }
+
+ .cabecalho { 
+     height: 90vh;
     }
-    .cabecalho-link {
-            text-decoration: none;
-            color: black;
-            font-size: 0.8rem;
-            padding: 1rem;
-     }
 
-    .cabecalho-navegacao {
-         display: flex;
-         justify-content: center;
-         gap: 1rem;
-         align-items: center;
-         height: 7.5%;
-     }
-     .cabecalho-icone {
-         padding: 1rem;
-     }
+    .cabecalho-carrosel { 
+        background-image: url('images/iphone-18.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 92.5%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .card-titulo {
+        font-size: 54px;
+        margin-bottom: 7px;
+}
+.card-subtitulo {
+    font-weight: 400;
+    margin-bottom: 4px;
 
-     .cabecalho { 
-         height: 90vh;
-        }
+}
+.card-conteudo {
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 11px;
+    text-align: center;
+}
+.card-link {
+    border-radius: 24px;
+    border: 1px solid white;
+    padding: 11px  18px ;
+    text-decoration: none;
+    margin: 6px;
+   
+    
 
-        .cabecalho-carrosel { 
-            background-image: url(https://github.com/unifiltech/apple-landing-page/blob/main/apple-event.jpg?raw=true);
-            background-size: cover;
-            background-position: center;
-            height: 92.5%;
-        }
+}
+.card-link-1{
+    background-color: #0077df;
+    border: 1px solid #0077df;
+    color: white;
+}
+.card-link-2
+{
+color: #0077df;
+border: 1px solid #0077df;
+}
+.card-link-2:hover{ 
+    color: white;
+    background: #0077df;
+}
+.links
+{ margin-top: 10px;}
+
+.principal-secao {
+    background-size: cover;
+    background-position: center;
+    min-height: 850px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;}
+
+.iphone-duo{
+    background-image: url('images/iphone-duo.jpg')
+}
